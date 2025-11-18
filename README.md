@@ -59,8 +59,7 @@ This package must be built from source.
 
 This package is designed to be run as part of a larger system. You will need at least 5 terminals. Remember to source your workspace (`source ~/ros2_ws/install/setup.bash`) in each terminal.
 
-**IMPORTANT:** This setup requires a one-time modification to the `turtlebot3_gazebo` package.
-You must tell the `ros_gz_bridge` to listen to the `/cmd_vel_stamped` topic that our `twist_converter` will publish to (instead of its default /cmd_vel).
+**IMPORTANT:** If there is a message type mismatch between your Nav2 and Gazebo, you will have to tell the `ros_gz_bridge` to listen to the `/cmd_vel_stamped` topic that our `twist_converter` will publish to (instead of its default /cmd_vel).
 
 1. Open the file with sudo:
     ```
