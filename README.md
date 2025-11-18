@@ -47,7 +47,7 @@ This package must be built from source.
 3. Return to the workspace root and install dependencies:
     ```
     cd ~/ros2_ws
-    rosdep install -i --from-path src --rosdistro humble -y
+    rosdep install -i --from-path src --rosdistro $ROS_DISTRO -y
     ```
 
 4. Build the workspace:
