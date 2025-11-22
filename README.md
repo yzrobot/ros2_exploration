@@ -14,7 +14,7 @@ It is intended to be used as a high-level "brain" that coordinates with existing
 
 This package also includes a helper node, `twist_converter`, which is launched automatically by `exploration_launch.py`.
 
-This node solves the `Twist` vs. `TwistStamped` mismatch between Nav2 and Gazebo.
+This node solves the possible `Twist` vs. `TwistStamped` mismatch between Nav2 and Gazebo.
 
 - Listens for `geometry_msgs/msg/Twist` on `/cmd_vel`.
 
